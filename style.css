@@ -1,0 +1,106 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Arial, sans-serif;
+ }
+
+ body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     background-color: #f4f4f4;
+ }
+
+ .profile-card {
+     background: #fff;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     text-align: center;
+     max-width: 400px;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-items: center;
+     gap: 15px;
+ }
+
+ .profile-card img {
+     width: 100px;
+     aspect-ratio: 1 / 1;
+     border-radius: 50%;
+     object-fit: cover;
+     border: 3px solid #00796b;
+ }
+
+ .profile-card h2 {
+     margin-top: 10px;
+     font-size: 22px;
+ }
+
+ .profile-card p {
+     margin: 5px 0;
+     color: #555;
+ }
+
+ .social-links {
+     margin: 10px;
+     display: flex;
+     width: 100%;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+
+ }
+
+
+ .github-btn {
+     display: flex;
+     align-items: center;
+     justify-items: center;
+     gap: 10px;
+     background-color: black;
+     color: #ffffff;
+     padding: 10px 20px;
+     border-radius: 8px;
+     text-decoration: none;
+     font-size: 16px;
+     font-weight: bold;
+     transition: background 0.3s;
+ }
+
+ .github-btn:hover {
+     background-color: #444c56;
+ }
+
+ .github-btn svg {
+     width: 20px;
+     height: 20px;
+     margin-right: 8px;
+ }
+
+ .twitter-btn {
+     display: flex;
+     align-items: center;
+     background-color: #1DA1F2;
+     color: #ffffff;
+     padding: 10px 20px;
+     border-radius: 8px;
+     text-decoration: none;
+     font-size: 16px;
+     font-weight: bold;
+     transition: background 0.3s;
+ }
+
+ .twitter-btn:hover {
+     background-color: #0d8bda;
+ }
+
+ .twitter-btn svg {
+     width: 20px;
+     height: 20px;
+     margin-right: 8px;
+ }
